@@ -134,7 +134,7 @@ class APCore
     /**
      * @var RequestHelper
      */
-    private $requestHelper;
+    public $requestHelper;
 
     /**
      * APCore constructor.
