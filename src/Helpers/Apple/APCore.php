@@ -2,15 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: imokhles
- * Date: 23/01/2019
- * Time: 22:14
+ * Date: 09/10/2017
+ * Time: 12:27
  */
 
 namespace iMokhles\IMPortal\Helpers\Apple;
 
 use CFPropertyList\CFPropertyList;
 use CFPropertyList\CFTypeDetector;
-use GuzzleHttp\Cookie\FileCookieJar;
 use GuzzleHttp\Exception\RequestException;
 
 use GuzzleHttp\Client;
