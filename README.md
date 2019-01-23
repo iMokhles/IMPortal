@@ -19,7 +19,7 @@ connect to apple developer portal without need any GUI written in PHP
 
 ### TODO
 
-[] improve and clean the code
+* [] improve and clean the code
 
 ### Credits
 
