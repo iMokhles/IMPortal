@@ -1,0 +1,23 @@
+{
+    "name": "imokhles/im-portal",
+    "description": "connect to apple developer portal without need any GUI written in PHP",
+    "type": "library",
+    "require": {
+        "rodneyrehm/plist": "^2.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "php": ">=7.0.0"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "iMokhles",
+            "email": "mokhleshussien@aol.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "iMokhles\\IMPortal\\": "src/"
+        }
+    }
+}
