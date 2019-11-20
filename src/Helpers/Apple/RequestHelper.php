@@ -9,6 +9,8 @@
 namespace iMokhles\IMPortal\Helpers\Apple;
 
 
+use iMokhles\IMPortal\Storage\IMStorage;
+
 class RequestHelper
 {
 
@@ -18,14 +20,14 @@ class RequestHelper
     private $storagePath;
 
     /**
-     * @var \IMStorage
+     * @var IMStorage
      */
     private $storage;
 
     public function __construct($storagePath)
     {
         $this->storagePath = $storagePath;
-        $this->storage = new \IMStorage($this->storagePath);
+        $this->storage = new IMStorage($this->storagePath);
     }
 
     public function getServiceKey() {
@@ -102,7 +104,7 @@ class RequestHelper
     }
 
     /**
-     * @return \IMStorage
+     * @return IMStorage
      */
     public function getStorage() {
         return $this->storage;

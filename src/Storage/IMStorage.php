@@ -6,6 +6,8 @@
  * Time: 22:22
  */
 
+namespace iMokhles\IMPortal\Storage;
+
 class IMStorage
 {
 

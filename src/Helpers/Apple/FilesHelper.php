@@ -9,6 +9,8 @@
 namespace iMokhles\IMPortal\Helpers\Apple;
 
 
+use iMokhles\IMPortal\Storage\IMStorage;
+
 class FilesHelper
 {
 
@@ -16,7 +18,7 @@ class FilesHelper
      * @param $accountEmail
      * @param $content
      * @param $filename
-     * @param \IMStorage $storage
+     * @param IMStorage $storage
      * @return bool
      */
     public static function saveCertFileToStorageWithContent($accountEmail, $content, $filename, $storage)
@@ -39,7 +41,7 @@ class FilesHelper
      * @param $accountEmail
      * @param $profileId
      * @param $content
-     * @param \IMStorage $storage
+     * @param IMStorage $storage
      * @return bool
      */
     public static function saveProfileFileToStorageWithContent($accountEmail, $profileId, $content, $storage)
@@ -63,7 +65,7 @@ class FilesHelper
      * @param $profileId
      * @param $content
      * @param $deviceId
-     * @param \IMStorage $storage
+     * @param IMStorage $storage
      * @return bool
      */
     public static function saveProfileFileToStorageWithContentToFile($accountEmail, $profileId, $content, $deviceId, $storage)

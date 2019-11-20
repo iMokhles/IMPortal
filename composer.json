@@ -3,6 +3,9 @@
     "description": "connect to apple developer portal without need any GUI written in PHP",
     "type": "library",
     "require": {
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-curl": "*",
         "rodneyrehm/plist": "^2.0",
         "guzzlehttp/guzzle": "^6.3",
         "php": ">=7.0.0"
